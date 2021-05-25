@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageColorChanger", "ImageColorChanger\ImageColorChanger.vcxproj", "{BA02FD36-B143-4002-A6C1-F1B4DC40589A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA02FD36-B143-4002-A6C1-F1B4DC40589A}.Debug|x64.ActiveCfg = Debug|x64
+		{BA02FD36-B143-4002-A6C1-F1B4DC40589A}.Debug|x64.Build.0 = Debug|x64
+		{BA02FD36-B143-4002-A6C1-F1B4DC40589A}.Release|x64.ActiveCfg = Release|x64
+		{BA02FD36-B143-4002-A6C1-F1B4DC40589A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DF0A71C-2B65-4DDB-B53D-F4CD03EB7AC5}
+	EndGlobalSection
+EndGlobal
