@@ -87,16 +87,16 @@ int main() {
 	cout << "------------- Welcome to my Image Color and More changer program.-------------" << endl << "- Please write the name of the image you want to transform" << endl << "- (include filename extension), you have your actual directory above. -" << endl;
 	
 	//ASking for the original Image
-	//string imageName;
+	string imageName;
 
-	//cin >> imageName;
+	cin >> imageName;
 
 	//Variables creation
-	//Mat image = imread(imageName, IMREAD_UNCHANGED);
-
-	string imageName = "img4v3.jpg";
-	cout << imageName << endl;
 	Mat image = imread(imageName, IMREAD_UNCHANGED);
+
+	//string imageName = "img4v3.jpg";
+	//cout << imageName << endl;
+	//Mat image = imread(imageName, IMREAD_UNCHANGED);
 
 	uint8_t* d_image, *d_image2, *d_image3;
 	int pixelNumValues = image.step;
